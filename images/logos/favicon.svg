@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark background tile -->
+  <rect width="512" height="512" fill="#09090b" rx="80"/>
+
+  <!-- Shield — solid orange, fills most of the tile -->
+  <path d="M256 60L80 130V256c0 120 80 210 176 232 96-22 176-112 176-232V130L256 60z" fill="#f97316"/>
+
+  <!-- Inner shield highlight for depth -->
+  <path d="M256 100L120 158V256c0 96 64 168 136 186 72-18 136-90 136-186V158L256 100z" fill="#fb923c" opacity="0.2"/>
+
+  <!-- Bold white checkmark — thick strokes, clear at 16px -->
+  <polyline points="168 256 224 316 344 196" stroke="white" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
